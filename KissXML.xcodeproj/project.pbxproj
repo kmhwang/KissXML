@@ -8,8 +8,6 @@
 
 /* Begin PBXBuildFile section */
 		BE3F31711D5D665E00F10F43 /* KissXML.h in Headers */ = {isa = PBXBuildFile; fileRef = BE3F31701D5D665E00F10F43 /* KissXML.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		BE3F31781D5D665F00F10F43 /* KissXML.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BE3F316D1D5D665E00F10F43 /* KissXML.framework */; };
-		BE3F317D1D5D665F00F10F43 /* KissXMLTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = BE3F317C1D5D665F00F10F43 /* KissXMLTests.swift */; };
 		BE3F31991D5D670500F10F43 /* DDXMLElementAdditions.h in Headers */ = {isa = PBXBuildFile; fileRef = BE3F31881D5D670500F10F43 /* DDXMLElementAdditions.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		BE3F319A1D5D670500F10F43 /* DDXMLElementAdditions.m in Sources */ = {isa = PBXBuildFile; fileRef = BE3F31891D5D670500F10F43 /* DDXMLElementAdditions.m */; };
 		BE3F319B1D5D670500F10F43 /* NSString+DDXML.h in Headers */ = {isa = PBXBuildFile; fileRef = BE3F318B1D5D670500F10F43 /* NSString+DDXML.h */; settings = {ATTRIBUTES = (Public, ); }; };
@@ -26,23 +24,10 @@
 		BE3F31AB1D5D690600F10F43 /* libxml2.tbd in Frameworks */ = {isa = PBXBuildFile; fileRef = BE3F31AA1D5D690600F10F43 /* libxml2.tbd */; };
 /* End PBXBuildFile section */
 
-/* Begin PBXContainerItemProxy section */
-		BE3F31791D5D665F00F10F43 /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = BE3F31641D5D665E00F10F43 /* Project object */;
-			proxyType = 1;
-			remoteGlobalIDString = BE3F316C1D5D665E00F10F43;
-			remoteInfo = KissXML;
-		};
-/* End PBXContainerItemProxy section */
-
 /* Begin PBXFileReference section */
 		BE3F316D1D5D665E00F10F43 /* KissXML.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = KissXML.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		BE3F31701D5D665E00F10F43 /* KissXML.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = KissXML.h; sourceTree = "<group>"; };
 		BE3F31721D5D665E00F10F43 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		BE3F31771D5D665F00F10F43 /* KissXMLTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = KissXMLTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
-		BE3F317C1D5D665F00F10F43 /* KissXMLTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = KissXMLTests.swift; sourceTree = "<group>"; };
-		BE3F317E1D5D665F00F10F43 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		BE3F31881D5D670500F10F43 /* DDXMLElementAdditions.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DDXMLElementAdditions.h; sourceTree = "<group>"; };
 		BE3F31891D5D670500F10F43 /* DDXMLElementAdditions.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DDXMLElementAdditions.m; sourceTree = "<group>"; };
 		BE3F318B1D5D670500F10F43 /* NSString+DDXML.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSString+DDXML.h"; sourceTree = "<group>"; };
@@ -68,14 +53,6 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		BE3F31741D5D665F00F10F43 /* Frameworks */ = {
-			isa = PBXFrameworksBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				BE3F31781D5D665F00F10F43 /* KissXML.framework in Frameworks */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
@@ -84,7 +61,6 @@
 			children = (
 				BE3F31AA1D5D690600F10F43 /* libxml2.tbd */,
 				BE3F316F1D5D665E00F10F43 /* KissXML */,
-				BE3F317B1D5D665F00F10F43 /* KissXMLTests */,
 				BE3F316E1D5D665E00F10F43 /* Products */,
 			);
 			sourceTree = "<group>";
@@ -93,7 +69,6 @@
 			isa = PBXGroup;
 			children = (
 				BE3F316D1D5D665E00F10F43 /* KissXML.framework */,
-				BE3F31771D5D665F00F10F43 /* KissXMLTests.xctest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -116,15 +91,6 @@
 				BE3F31721D5D665E00F10F43 /* Info.plist */,
 			);
 			path = KissXML;
-			sourceTree = "<group>";
-		};
-		BE3F317B1D5D665F00F10F43 /* KissXMLTests */ = {
-			isa = PBXGroup;
-			children = (
-				BE3F317C1D5D665F00F10F43 /* KissXMLTests.swift */,
-				BE3F317E1D5D665F00F10F43 /* Info.plist */,
-			);
-			path = KissXMLTests;
 			sourceTree = "<group>";
 		};
 		BE3F31871D5D670500F10F43 /* Additions */ = {
@@ -192,24 +158,6 @@
 			productReference = BE3F316D1D5D665E00F10F43 /* KissXML.framework */;
 			productType = "com.apple.product-type.framework";
 		};
-		BE3F31761D5D665F00F10F43 /* KissXMLTests */ = {
-			isa = PBXNativeTarget;
-			buildConfigurationList = BE3F31841D5D665F00F10F43 /* Build configuration list for PBXNativeTarget "KissXMLTests" */;
-			buildPhases = (
-				BE3F31731D5D665F00F10F43 /* Sources */,
-				BE3F31741D5D665F00F10F43 /* Frameworks */,
-				BE3F31751D5D665F00F10F43 /* Resources */,
-			);
-			buildRules = (
-			);
-			dependencies = (
-				BE3F317A1D5D665F00F10F43 /* PBXTargetDependency */,
-			);
-			name = KissXMLTests;
-			productName = KissXMLTests;
-			productReference = BE3F31771D5D665F00F10F43 /* KissXMLTests.xctest */;
-			productType = "com.apple.product-type.bundle.unit-test";
-		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
@@ -221,9 +169,6 @@
 				ORGANIZATIONNAME = "Ken M. Hwang";
 				TargetAttributes = {
 					BE3F316C1D5D665E00F10F43 = {
-						CreatedOnToolsVersion = 7.3.1;
-					};
-					BE3F31761D5D665F00F10F43 = {
 						CreatedOnToolsVersion = 7.3.1;
 					};
 				};
@@ -241,20 +186,12 @@
 			projectRoot = "";
 			targets = (
 				BE3F316C1D5D665E00F10F43 /* KissXML */,
-				BE3F31761D5D665F00F10F43 /* KissXMLTests */,
 			);
 		};
 /* End PBXProject section */
 
 /* Begin PBXResourcesBuildPhase section */
 		BE3F316B1D5D665E00F10F43 /* Resources */ = {
-			isa = PBXResourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		BE3F31751D5D665F00F10F43 /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -277,23 +214,7 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		BE3F31731D5D665F00F10F43 /* Sources */ = {
-			isa = PBXSourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				BE3F317D1D5D665F00F10F43 /* KissXMLTests.swift in Sources */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
 /* End PBXSourcesBuildPhase section */
-
-/* Begin PBXTargetDependency section */
-		BE3F317A1D5D665F00F10F43 /* PBXTargetDependency */ = {
-			isa = PBXTargetDependency;
-			target = BE3F316C1D5D665E00F10F43 /* KissXML */;
-			targetProxy = BE3F31791D5D665F00F10F43 /* PBXContainerItemProxy */;
-		};
-/* End PBXTargetDependency section */
 
 /* Begin XCBuildConfiguration section */
 		BE3F317F1D5D665F00F10F43 /* Debug */ = {
@@ -426,26 +347,6 @@
 			};
 			name = Release;
 		};
-		BE3F31851D5D665F00F10F43 /* Debug */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				INFOPLIST_FILE = KissXMLTests/Info.plist;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = com.kmhwang.KissXMLTests;
-				PRODUCT_NAME = "$(TARGET_NAME)";
-			};
-			name = Debug;
-		};
-		BE3F31861D5D665F00F10F43 /* Release */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				INFOPLIST_FILE = KissXMLTests/Info.plist;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = com.kmhwang.KissXMLTests;
-				PRODUCT_NAME = "$(TARGET_NAME)";
-			};
-			name = Release;
-		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
@@ -463,15 +364,6 @@
 			buildConfigurations = (
 				BE3F31821D5D665F00F10F43 /* Debug */,
 				BE3F31831D5D665F00F10F43 /* Release */,
-			);
-			defaultConfigurationIsVisible = 0;
-			defaultConfigurationName = Release;
-		};
-		BE3F31841D5D665F00F10F43 /* Build configuration list for PBXNativeTarget "KissXMLTests" */ = {
-			isa = XCConfigurationList;
-			buildConfigurations = (
-				BE3F31851D5D665F00F10F43 /* Debug */,
-				BE3F31861D5D665F00F10F43 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
